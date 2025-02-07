@@ -1,0 +1,30 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "How are you?"],
+        "responses": ["Hello! How can I assist you?", "Hi there!", "Hey! What do you need help with?"],
+        "context": [""]
+      },
+      {
+        "tag": "disease_outbreak",
+        "patterns": ["Predict disease outbreak", "How does the system work?", "Tell me about disease prediction"],
+        "responses": ["The system uses AI to analyze health data and predict disease outbreaks.", "We leverage machine learning to forecast possible outbreaks based on various factors."],
+        "context": [""]
+      },
+      {
+        "tag": "data_requirements",
+        "patterns": ["What data do you need?", "Tell me about the data used", "What inputs are required?"],
+        "responses": ["The model uses temperature, humidity, population density, healthcare access, and infected neighbors as inputs."],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Appreciate it"],
+        "responses": ["You're welcome!", "Glad to help!", "Anytime!"],
+        "context": [""]
+      }
+    ]
+  }
+  
+  
