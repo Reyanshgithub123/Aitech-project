@@ -20,7 +20,7 @@ This project aims to predict disease outbreaks using machine learning techniques
    ```
 3. Run the script:
    ```sh
-   python disease_outbreak.py
+   python diseaseoutbreak.py
    ```
 
 ## Dataset
